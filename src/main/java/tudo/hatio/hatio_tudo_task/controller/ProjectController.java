@@ -78,6 +78,7 @@ public class ProjectController {
     public ResponseEntity<String> exportProjectSummary(@PathVariable UUID projectId) {
 
         String result = projectService.exportProjectSummaryAsGist(projectId);
+        logger.info(result+"---------------------");
 
         if (result.startsWith("REDIRECT:")) {
             return ResponseEntity.status(HttpStatus.FOUND).header("Location", result.substring(9)).build();
