@@ -23,7 +23,9 @@ public class Todo {
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "uuid2")
     @GenericGenerator(name = "id", strategy = "uuid2")
     private UUID id;
+
     private String description;
+
     @Enumerated(EnumType.STRING)
     @Column(length = 25)
     private TodoStatus status;
@@ -35,6 +37,7 @@ public class Todo {
 
     @UpdateTimestamp
     private LocalDateTime updatedDate;
+
     @ManyToOne
     @JoinColumn(name="project_id",nullable = false)
     private  Project project;

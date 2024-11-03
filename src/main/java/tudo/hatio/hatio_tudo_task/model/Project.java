@@ -27,6 +27,7 @@ public class Project {
     private UUID id;
 
     private String title;
+
     @CreationTimestamp
     @Column(updatable = false)
     private LocalDateTime createdDate;
