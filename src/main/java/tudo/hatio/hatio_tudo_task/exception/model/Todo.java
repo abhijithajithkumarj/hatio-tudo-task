@@ -1,4 +1,4 @@
-package tudo.hatio.hatio_tudo_task.model;
+package tudo.hatio.hatio_tudo_task.exception.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

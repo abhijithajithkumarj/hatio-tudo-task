@@ -3,8 +3,8 @@ package tudo.hatio.hatio_tudo_task.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import tudo.hatio.hatio_tudo_task.model.Project;
-import tudo.hatio.hatio_tudo_task.model.Todo;
+import tudo.hatio.hatio_tudo_task.exception.model.Project;
+import tudo.hatio.hatio_tudo_task.exception.model.Todo;
 
 import java.util.List;
 import java.util.UUID;

@@ -2,7 +2,7 @@ package tudo.hatio.hatio_tudo_task.service.impl;
 
 import org.springframework.stereotype.Service;
 import tudo.hatio.hatio_tudo_task.enums.TodoStatus;
-import tudo.hatio.hatio_tudo_task.model.Project;
+import tudo.hatio.hatio_tudo_task.exception.model.Project;
 import tudo.hatio.hatio_tudo_task.service.MarkdownService;
 
 @Service
