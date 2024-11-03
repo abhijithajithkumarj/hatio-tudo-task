@@ -17,7 +17,7 @@ import tudo.hatio.hatio_tudo_task.dto.ProjectResponseDTO;
 import tudo.hatio.hatio_tudo_task.exception.ResourceCreationException;
 import tudo.hatio.hatio_tudo_task.exception.ResourceNotFoundException;
 import tudo.hatio.hatio_tudo_task.exception.UnauthorizedAccessException;
-import tudo.hatio.hatio_tudo_task.model.Project;
+import tudo.hatio.hatio_tudo_task.exception.model.Project;
 import tudo.hatio.hatio_tudo_task.repository.ProjectRepository;
 import tudo.hatio.hatio_tudo_task.service.GitHubAuthTokenService;
 import tudo.hatio.hatio_tudo_task.service.GitHubGistService;

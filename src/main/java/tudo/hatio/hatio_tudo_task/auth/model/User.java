@@ -10,7 +10,7 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import tudo.hatio.hatio_tudo_task.enums.UserRole;
-import tudo.hatio.hatio_tudo_task.model.Project;
+import tudo.hatio.hatio_tudo_task.exception.model.Project;
 
 import java.util.ArrayList;
 import java.util.Collection;
